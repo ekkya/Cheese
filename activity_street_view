@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/steet_view_panorama"
+        android:layout_width="333dp"
+        android:layout_height="220dp"
+        android:name="com.google.android.gms.maps.StreetViewPanoramaFragment"
+        tools:layout="@layout/activity_street_view" />
+
+</LinearLayout>
+
+</LinearLayout>
